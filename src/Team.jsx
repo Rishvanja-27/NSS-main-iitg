@@ -149,7 +149,7 @@ const Team = () => {
     {
       unit: 'Unit 06 Chandrakut',
       members: [
-        { name: 'Dr. Amarjyoti Mahanta', position: 'PO', image: 'assets/staff/unit6/14.png' },
+        { name: 'Dr.Mohammed Mosaddique Nawaz Husain', position: 'PO', image: 'assets/staff/unit6/14.png' },
         { name: 'Mr. Bibekananda Pathak', position: 'APO', image: 'assets/staff/unit6/15.png' }
       ]
     },
@@ -352,14 +352,15 @@ const previousJointCoordinators = [
                     <div className="staff-basic-info">
                       <h3 className="staff-name">{member.name}</h3>
                       <p className="staff-position">{member.position}</p>
-                    </div>
-                  </div>
-                  <div className="staff-right">
-                    <div className="contact-header">
+                      {/* Contact number moved below name and position */}
                       <div className="phone-with-label">
                         <span className="phone-label">Contact Number:</span>
                         <p className="staff-phone">{member.contact.number}</p>
                       </div>
+                    </div>
+                  </div>
+                  <div className="staff-right">
+                    <div className="contact-header">
                       <h4 className="contact-title">Contact for:</h4>
                     </div>
                     <div className="responsibilities-grid">

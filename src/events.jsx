@@ -149,7 +149,7 @@ const Events = () => {
           <div className="event-image">
             <img src="assets/events/welfare.jpeg" alt="WORKSHOP ON C# (WELFARE)" />
           </div>
-          <h3>WORKSHOP ON C# (WELFARE)</h3>
+          <h3>MUSIC WORKSHOP BY MS.SUNITA BHUYAN</h3>
           <div className="event-date">October 7, 2025</div>
         </div>
       </div>
