@@ -150,7 +150,7 @@ const Team = () => {
       unit: 'Unit 06 Chandrakut',
       members: [
         { name: 'Dr.Mohammed Mosaddique Nawaz Husain', position: 'PO', image: 'assets/staff/unit6/14.png' },
-        { name: 'Mr. Bibekananda Pathak', position: 'APO', image: 'assets/staff/unit6/15.png' }
+        { name: 'Mr. Manjil Das', position: 'APO', image: 'assets/staff/unit6/15.png' }
       ]
     },
     {
